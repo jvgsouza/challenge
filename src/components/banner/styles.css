@@ -1,0 +1,26 @@
+.inline {
+    display: flex;
+}
+.block-header {
+    display: flex;
+}
+.block-mobile-banner{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .block {
+        display: none;
+    }
+    .block-mobile-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .block-header {
+        display: none;
+    }
+}
